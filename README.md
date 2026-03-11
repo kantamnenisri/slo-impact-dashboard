@@ -43,3 +43,9 @@ This project is ready for deployment on [Render](https://render.com/).
 - **Error Budget Remaining**: Total monthly allowed downtime minus current downtime.
 - **Burn Rate**: (1 - Current Uptime) / (1 - SLO Target). A burn rate > 1 means you are consuming budget faster than allowed.
 - **Revenue at Risk**: Current downtime duration multiplied by the calculated downtime cost per hour (Monthly Revenue / 720 hours).
+
+
+## 💡 Inspiration
+This project is a reference implementation exploring concepts related to 
+multi-cloud reliability engineering. The author holds USPTO patent 
+applications in this domain (US 19/325,718 and US 19/344,864).
