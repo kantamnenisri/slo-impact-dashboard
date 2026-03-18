@@ -26,6 +26,10 @@ class SLOCalculationRequest(BaseModel):
 def health_check():
     return {"status": "healthy", "service": "slo-dashboard-api"}
 
+@app.get("/ping")
+async def ping():
+    return "OK"
+
 @app.post("/calculate")
 def calculate_metrics(data: SLOCalculationRequest):
     try:
